@@ -1,0 +1,285 @@
+body {
+    color: #666;
+    font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", sans-serif;
+}
+
+    h1 {
+        line-height: 1em;
+    }
+
+    h1, h2 {
+        font-family: "Playfair Display SC", serif;
+        margin: 0;
+    }
+
+    h3, h4 {
+        font-family: "PT Sans Narrow", sans-serif;
+    }
+
+    main {
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+/*
+Header
+*/
+header {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+    header img {
+        margin-right: auto;
+    }
+
+    #page-title {
+        text-align: right;
+    }
+
+/*
+main
+*/
+#main-image {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/kokedama.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*
+Works
+*/
+#featured-work {
+    display: flex;
+    padding: 0;
+}
+
+    .work-items {
+        height: 50%;
+        list-style: none;
+        text-align: center;
+        position: relative;
+    }
+
+        .work-items a {
+            text-decoration: none;
+            color: #666;
+        }
+
+        .work-images {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 80%;
+        }
+
+        .ps {
+            background: url(../images/popSaurus.gif) center center / cover;
+        }
+        .r13 {
+            background: url(../images/redXIII.gif) center center / contain no-repeat;
+            background-color: black;
+        }
+        .dn {
+            background: url(../images/dayNight.gif) center center / contain no-repeat;
+            margin-right: 0;
+        }
+
+/*
+Footer
+*/
+footer {
+    border-top: #c1d3da solid 2px;
+    font-size: small;
+    text-align: center;
+    padding-top: 1em;
+}
+
+    footer a {
+        text-decoration: none;
+        color: #666;
+    }
+
+    footer a:hover {
+        color: #c1d3da;
+    }
+
+/*
+responsive
+*/
+@media screen and (max-width: 639px) {
+    body {
+        margin-top: 0;
+    }
+
+        h1 {
+            font-size: 2em;
+        }
+
+        h2 {
+            font-weight: 100;
+        }
+
+        h3 {
+            font-size: 1.5em;
+        }
+
+        h4 {
+            font-size: 1.5em;
+            margin: 50% 0 0 0;
+            padding-top: 1.6em;
+        }
+
+    header {
+        border-bottom: #c1d3da solid 3px;
+        height: 15vh;
+        margin-bottom: 1em;
+        align-items: center;
+        justify-items: center;
+    }
+
+        header img {
+            width: 70px;
+            height: 70px;
+        }
+
+        #page-title {
+            height: 10vh;
+        }
+
+    #featured-work {
+        flex-direction: column;
+    }
+
+        .work-items {
+            width: 100%;
+            margin: 5% 0 2% 0;
+        }
+}
+
+@media screen and (min-width: 640px) {
+    header {
+        border-bottom: #c1d3da solid 3px;
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 999px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    h3 {
+        font-size: 2em;
+        margin-bottom: 0;
+    }
+
+    h4 {
+        font-size: 1.6em;
+        margin: 50% 0 0 0;
+        padding-top: 1.5em;
+    }
+
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+
+    #featured-work {
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+
+        .work-items {
+            width: 49%;
+            margin: 5% 2% 2% 0;
+        }
+
+        .work-items:nth-child(2) {
+            margin-right: 0;
+        }
+}
+
+@media screen and (min-width: 1000px) {
+    h1 {
+        font-size: 5em;
+    }
+
+    h2 {
+        font-size: 2em;
+        margin-bottom: 1em;
+    }
+
+    h3 {
+        font-size: 2em;
+    }
+
+    h4 {
+        font-size: 2em;
+        margin: 50% 0 0 0;
+        padding-top: 2em;
+    }
+
+    header img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .work-items {
+        width: calc((100% - 4%)/3);
+        margin-right: 2%;
+    }
+
+        .work-items:nth-child(3) {
+            margin-right: 0;
+        }
+}
+
+@media screen and (orientation: landscape) and (max-width: 999px) {
+    header {
+        padding: 1em 0 0.5em 0;
+    }
+    
+        #page-title {
+            height: 20vh;
+        }
+    
+    #main-image {
+        height: 60vh;
+    }
+}
+
+@media screen and (orientation: landscape) and (min-width: 1000px) {
+    #main-image {
+        height: 70vh;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    #main-image {
+        height: 35vh;
+    }
+}
+
+/*
+iPhone 5
+*/
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 1.5em !important;
+    }
+
+    h2 {
+        font-size: 1.2em !important;
+    }
+}
