@@ -1,7 +1,9 @@
 # Build a portfolio site  
 This is Project 1 of Udacity FEND course.  
 ## Acknowledgments  
+<img src="https://github.com/Quiwah/build-a-portfolio-site/blob/master/images/fend.png" alt="FEND" width="30%">  
 [Google x Udacity FEND course](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001)  
+  
 <img src="https://github.com/Quiwah/build-a-portfolio-site/blob/master/images/2018Logo.png" alt="Cascading Coders" width="30%">  
 ## About Cascading Coders:  
 >We're a welcoming community of developers of all skill levels who have a love or interest in creative code. Even if you've never heard of it before or it sounds intimidating - this is the place for you!  
