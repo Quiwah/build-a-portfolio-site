@@ -1,6 +1,5 @@
 # Build a portfolio site  
-This is Project 1 of Udacity FEND course.
-
+This is Project 1 of Udacity FEND course.  
 ## Acknowledgments  
 [Google x Udacity FEND course](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001)  
 ![Cascading Coders](https://github.com/Quiwah/build-a-portfolio-site/blob/master/images/2018Logo.png "logo")
