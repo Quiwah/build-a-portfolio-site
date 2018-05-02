@@ -73,7 +73,7 @@ text-align: center;
 position: relative;
 }
 
-.work-items a[target=_blank] {
+.work-items a {
     text-decoration: none;
     color: #666;
 }
